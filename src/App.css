@@ -1,0 +1,116 @@
+.link {
+  text-decoration: none !important;
+  width: 100% !important;
+  color: grey;
+}
+
+.link:hover {
+  background-color: aliceblue;
+
+}
+
+.box1 {
+
+  color: inherit;
+  background: red;
+}
+.txt{
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+.img{
+ /* height: 100px; */
+  min-height: 100vh;
+  background-image: linear-gradient( to left, rgb(0,0,0,.4), rgb(0,0,0,.4)),url('./Components/User/images/cardmapr-nl-s8F8yglbpjo-unsplash.jpg')  ;
+/* background-image: url('./Components/User/images/cardmapr-nl-s8F8yglbpjo-unsplash.jpg'); */
+  background-size: 100% auto;
+}
+.success{
+  min-height: 100vh;
+  background-image: linear-gradient( to left, rgb(0,0,0,.4), rgb(0,0,0,.4)),url('./Components/User/images/success.jpg')  ;
+/* background-image: url('./Components/User/images/cardmapr-nl-s8F8yglbpjo-unsplash.jpg'); */
+  background-size: 100% auto;
+}
+
+.orimg{
+  min-height: 100vh;
+  background-image: linear-gradient( to left, rgb(0,0,0,.4), rgb(0,0,0,.4)),url('./Components/User/images/denise-jans-nrxAD-M2sFU-unsplash.jpg')  ;
+/* background-image: url('./Components/User/images/cardmapr-nl-s8F8yglbpjo-unsplash.jpg'); */
+  background-size: 100% auto;
+}
+
+.infoimg{
+  min-height: 100vh;
+  background-image: linear-gradient( to left, rgb(0,0,0,.4), rgb(0,0,0,.4)),url('./Components/User/images/micheile-dot-com--DhNe1P1C0A-unsplash.jpg')  ;
+/* background-image: url('./Components/User/images/cardmapr-nl-s8F8yglbpjo-unsplash.jpg'); */
+  background-size: 100% auto;
+}
+.close {
+  font-size: large;
+  color: gray;
+  float: right;
+  background: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  border: 0px;
+}
+
+.back {
+  height: 90vh;
+  background-image: linear-gradient(to left, rgb(1, 1, 1, .4), rgb(1, 1, 1, .4)), url('./images/rgb.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: white;
+ 
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form-control {
+  width: 180px;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.img-resp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-responsive {
+  width: 80%;
+}
+.bg13{
+  min-height: 100vh;
+  background-image:linear-gradient(to left, rgb(1, 1, 1, .2), rgb(1, 1, 1, .2)), url('./Components/User/images/ecommerce-icon-pack-1.jpg');
+  background-size: 20%;
+}
+.bg14{
+  min-height: 100vh;
+  background-image:  linear-gradient(to left, rgb(1, 1, 1, .4), rgb(1, 1, 1, .4)), url('./Components/Admin/images/rob-maxwell-6Xb0-zJM_lU-unsplash.jpg') ;
+  background-size: 100% auto;
+}
+.bg15{
+  min-height: 100vh;
+  background-image:  linear-gradient(to left, rgb(1, 1, 1, .5), rgb(1, 1, 1, .5)), url('./Components/Admin/images/markus-winkler-_32teXYhzpY-unsplash.jpg') ;
+  background-size: 100% auto;
+}
+.bg16{
+  min-height: 100vh;
+  background-image:  linear-gradient(to left, rgb(1, 1, 1, .5), rgb(1, 1, 1, .5)), url('./Components/User/images/christine-roy-ir5MHI6rPg0-unsplash.jpg') ;
+  background-size: 100% auto;
+}
+
+.text{
+  text-align: center !important;
+}
